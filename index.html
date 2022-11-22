@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube</title>
+    <!-- 
+        fav icon
+     -->
+    <link
+      rel="shortcut icon"
+      href="./img/YouTube-icon.png"
+      type="image/x-icon"
+    />
+
+    <!-- 
+        Google Fonts
+     -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 
+        bootstrap link
+     -->
+    <link
+      rel="stylesheet"
+      href="../node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+
+    <!-- 
+        font-awesome link
+     -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- 
+        CSS link
+     -->
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!---------------------- navbar ---------------------->
+    <nav class="flex-div">
+      <div class="nav-left flex-div">
+        <img src="./img/hamburger.png" class="menu-icon" alt="" />
+        <img src="./images/yt-logo.PNG" class="logo" alt="" />
+      </div>
+      <div class="nav-middle flex-div">
+        <div class="search-box flex-div">
+          <input type="text" placeholder="Search" />
+          <img src="./images/search.png" alt="" />
+        </div>
+
+        <img src="./images/mic.png" class="mic-icon" alt="" />
+      </div>
+
+      <div class="nav-right flex-div">
+        <img src="./images/upload.png" alt="" />
+        <img src="./images/notification.png" alt="" />
+        <img src="./images/profile.png" class="user-icon" alt="" />
+      </div>
+    </nav>
+
+    <!---------------------- sidebar ---------------------->
+
+    <div class="sidebar">
+      <div class="shortcut-link">
+        <a href="">
+          <img src="./img/yt-home.png" alt="" />
+          <p>Home</p>
+        </a>
+        <a href="">
+          <img src="./images/shorts.PNG" alt="" />
+          <p>Shorts</p>
+        </a>
+        <a href="">
+          <img src="./img/yt-subscribe.png" alt="" />
+          <p>Subscription</p>
+        </a>
+        <hr />
+        <a href="">
+          <img src="./img/yt-library.png" alt="" />
+          <p>Library</p>
+        </a>
+        <a href="">
+          <img src="./img/yt-history.png" alt="" />
+          <p>History</p>
+        </a>
+        <a href="">
+          <img src="./img/yt-video.png" alt="" />
+          <p>Your video</p>
+        </a>
+        <a href="">
+          <img src="./img/yt-watch.png" alt="" />
+          <p>Watch later</p>
+        </a>
+        <a href="">
+          <img src="./img/yt-liked.png" alt="" />
+          <p>Liked videos</p>
+        </a>
+        <a href="">
+          <img src="./img/yt-down-arrow.png" alt="" />
+          <p>Show more</p>
+        </a>
+        <hr />
+      </div>
+
+      <!------------Subscription-------------->
+
+      <div class="subscribe-list">
+        <h3>Subscription</h3>
+        <a href="">
+          <img src="./subs/ez-tut.jpg" alt="" />
+          <p>Easy Tutorials</p>
+        </a>
+        <a href="">
+          <img src="./subs/arsh.jpg" alt="" />
+          <p>Arshad Ahmad</p> </a
+        ><a href="">
+          <img src="./subs/webdev.jpg" alt="" />
+          <p>Mr. Web Designer</p> </a
+        ><a href="">
+          <img src="./subs/at.jpg" alt="" />
+          <p>Adrian Twarog</p> </a
+        ><a href="">
+          <img src="./subs/cwh.jpg" alt="" />
+          <p>CodeWithHarry</p>
+        </a>
+        <a href="">
+          <img src="./subs/lame-dev.jpg" alt="" />
+          <p>Lama Dev</p>
+        </a>
+        <a href="">
+          <img src="./subs/harshit.jpg" alt="" />
+          <p>Harshit Vashisth</p>
+        </a>
+        <a href="">
+          <img src="./img/yt-down-arrow.png" alt="" />
+          <p>Show more</p>
+        </a>
+      </div>
+    </div>
+
+    <!-- ------main structure----- -->
+
+    <!-- <div class="video-section">
+      <div class="video">
+          <iframe src="https://www.youtube.com/embed/4xa0CScKjjk"></iframe>
+          <div class="frame-body">
+              <div>
+                  <img src="./public/images/channels4_profile.jpg">
+              </div>
+              <div>
+                  <p>Meet Cute Teaser | Nani | Wall Poster Cinema | Sony LIV<br>
+                  <span class="channel-name">Wall Poster Cinema<br>
+                  123K views 2 days ago</span>
+                  </p>
+              </div>
+          </div>
+      </div>
+      </div> -->
+
+    <div class="container">
+      <div class="category">
+        <ul class="category-list">
+          <li>All</li>
+          <li>Gaming</li>
+          <li>Music</li>
+          <li>Live</li>
+          <li>Valorant</li>
+          <li>Film criticisms</li>
+          <li>Computer programming</li>
+          <li>Mixes</li>
+          <li>Comedy</li>
+          <li>Gadgets</li>
+          <li>Exercise</li>
+          <li>Movies</li>
+          <li>News</li>
+        </ul>
+      </div>
+
+      <div class="list-container">
+        <div class="video-list">
+          <iframe
+            class="iframe-video"
+            src="https://www.youtube.com/embed/C9ctoK4M9Bk"
+            frameborder="”0″"
+          ></iframe>
+          <div class="flex-div">
+            <img src="./images/profile1.jpg" alt="" />
+            <div class="video-info">
+              <a href=""
+                >Build and Deploy an Online Multiplayer Web 3 NFT Card Game |
+                Full Course</a
+              >
+              <p>Javascript Mastery</p>
+              <p>65K views &#8226; 7 days ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-list">
+          <iframe
+            class="iframe-video"
+            src="https://www.youtube.com/embed/iU_VWyy-8J0"
+            frameborder="”0″"
+          ></iframe>
+          <div class="flex-div">
+            <img src="./images/profile2.jpg" alt="" />
+            <div class="video-info">
+              <a href=""
+                >WE HAVE NO WORDS!!! 💥 🔥 Demon Slayer 2x17 REACTION!
+              </a>
+              <p>Carlie & Ange</p>
+              <p>272K views &#8226; 2 weeks ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-list">
+          <iframe
+            class="iframe-video"
+            src="https://www.youtube.com/embed/xg1zO2hN2QM"
+            frameborder="”0″"
+          ></iframe>
+          <div class="flex-div">
+            <img src="./images/profile3.jpg" alt="" />
+            <div class="video-info">
+              <a href="">Web Developer Reacts To Best Codepens!</a>
+              <p>Javascript Mastery</p>
+              <p>65K views &#8226; 7 days ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-list">
+          <iframe
+            class="iframe-video"
+            src="https://www.youtube.com//embed/epwxMBzSSSE"
+            frameborder="”0″"
+          ></iframe>
+          <div class="flex-div">
+            <img src="./images/profile4.jpg" alt="" />
+            <div class="video-info">
+              <a href=""
+                >Custom Bullet Points Using HTML CSS | Replacing Bullets With
+                Unicode Characters In CSS</a
+              >
+              <p>Full Stack Technologies</p>
+              <p>1k views &#8226; 10 hours ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-list">
+          <iframe
+            class="iframe-video"
+            src="https://www.youtube.com//embed/4-_0aTlkqK0"
+            frameborder="”0″"
+          ></iframe>
+          <div class="flex-div">
+            <img src="./images/profile5.jpg" alt="" />
+            <div class="video-info">
+              <a href="">Stop Writing So Many Tests</a>
+              <p>Web Dev Simplified</p>
+              <p>75K views &#8226; 6 days ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-list">
+          <iframe
+            class="iframe-video"
+            src="https://www.youtube.com/embed/xYKzdx-B1w0"
+            frameborder="”0″"
+          ></iframe>
+          <div class="flex-div">
+            <img src="./images/profile6.jpg" alt="" />
+            <div class="video-info">
+              <a href="">Itachi Uchiha - Orignal Soundtrack (extended)</a>
+              <p>Sir Param</p>
+              <p>10M views &#8226; 4 years ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-list">
+          <iframe
+            class="iframe-video"
+            src="https://www.youtube.com/embed/X5iLF-cszu0"
+            frameborder="”0″"
+          ></iframe>
+          <div class="flex-div">
+            <img src="./images/profile7.jpg" alt="" />
+            <div class="video-info">
+              <a href="">Google Presents: AI@ ‘22</a>
+              <p>Google Research</p>
+              <p>113K views &#8226; 2 weeks ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-list">
+          <iframe
+            class="iframe-video"
+            src="https://www.youtube.com/embed/vHuSz4fRM88"
+            frameborder="”0″"
+          ></iframe>
+          <div class="flex-div">
+            <img src="./images/profile8.jpg" alt="" />
+            <div class="video-info">
+              <a href="">The secret to mastering CSS layouts</a>
+              <p>Kevin Powell</p>
+              <p>165K views &#8226; 4 weeks ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-list">
+          <iframe
+            class="iframe-video"
+            src="https://www.youtube.com/embed/C9ctoK4M9Bk"
+            frameborder="”0″"
+          ></iframe>
+          <div class="flex-div">
+            <img src="./images/profile1.jpg" alt="" />
+            <div class="video-info">
+              <a href=""
+                >Build and Deploy an Online Multiplayer Web 3 NFT Card Game |
+                Full Course</a
+              >
+              <p>Javascript Mastery</p>
+              <p>65K views &#8226; 7 days ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="video-list">
+          <iframe
+            class="iframe-video"
+            src="https://www.youtube.com/embed/C9ctoK4M9Bk"
+            frameborder="”0″"
+          ></iframe>
+          <div class="flex-div">
+            <img src="./images/profile1.jpg" alt="" />
+            <div class="video-info">
+              <a href=""
+                >Build and Deploy an Online Multiplayer Web 3 NFT Card Game |
+                Full Course</a
+              >
+              <p>Javascript Mastery</p>
+              <p>65K views &#8226; 7 days ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-list">
+          <iframe
+            class="iframe-video"
+            src="https://www.youtube.com/embed/xYKzdx-B1w0"
+            frameborder="”0″"
+          ></iframe>
+          <div class="flex-div">
+            <img src="./images/profile6.jpg" alt="" />
+            <div class="video-info">
+              <a href="">Itachi Uchiha - Orignal Soundtrack (extended)</a>
+              <p>Sir Param</p>
+              <p>10M views &#8226; 4 years ago</p>
+            </div>
+          </div>
+          
+
+      </div>
+    </div>
+  </body>
+</html>
